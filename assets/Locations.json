@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "KFC Centraal Station",
+      "description": "Located near Rotterdam Centraal Station, this KFC branch offers a variety of delicious fried chicken options.",
+      "latitude": 51.923442,
+      "longitude": 4.471505
+    },
+    {
+      "id": 2,
+      "title": "KFC Beurs",
+      "description": "Situated in the heart of Rotterdam's city center, KFC Beurs is a popular spot for locals and tourists alike.",
+      "latitude": 51.920901,
+      "longitude": 4.479390
+    },
+    {
+      "id": 3,
+      "title": "KFC Alexandrium",
+      "description": "Found in the bustling shopping district of Alexandrium, this KFC location provides a convenient dining option for shoppers.",
+      "latitude": 51.939259,
+      "longitude": 4.522978
+    },
+    {
+      "id": 4,
+      "title": "KFC Zuidplein",
+      "description": "Located in the Zuidplein shopping mall, KFC Zuidplein is a great place to enjoy some finger-licking chicken after a day of shopping.",
+      "latitude": 51.888110,
+      "longitude": 4.488255
+    },
+    {
+      "id": 5,
+      "title": "KFC Binnenwegplein",
+      "description": "Situated on Binnenwegplein, this KFC branch offers a convenient location for a quick and tasty meal.",
+      "latitude": 51.919493,
+      "longitude": 4.467245
+    },
+    {
+      "id": 6,
+      "title": "KFC Oude Binnenweg",
+      "description": "Located on the historic Oude Binnenweg street, this KFC restaurant combines the taste of KFC with the charm of Rotterdam's city center.",
+      "latitude": 51.918668,
+      "longitude": 4.478763
+    },
+    {
+      "id": 7,
+      "title": "KFC Meent",
+      "description": "Situated on the vibrant Meent street, this KFC branch is surrounded by shops, cafes, and other popular attractions.",
+      "latitude": 51.921594,
+      "longitude": 4.484431
+    },
+    {
+      "id": 8,
+      "title": "KFC Hoogstraat",
+      "description": "Located on Hoogstraat, this KFC restaurant is a great place to grab a bite while exploring Rotterdam's lively streets.",
+      "latitude": 51.919741,
+      "longitude": 4.482136
+    },
+    {
+      "id": 9,
+      "title": "KFC Wijnhaven",
+      "description": "Situated near the Wijnhaven, this KFC location offers picturesque views along with their mouth-watering chicken menu.",
+      "latitude": 51.919887,
+      "longitude": 4.486887
+    },
+    {
+      "id": 10,
+      "title": "KFC Blaak",
+      "description": "Found in the iconic Blaak area, this KFC branch is a convenient stop for visitors exploring nearby attractions like the Markthal.",
+      "latitude": 51.922126,
+      "longitude": 4.487927
+    }
+  ]
+}

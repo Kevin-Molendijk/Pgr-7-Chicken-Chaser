@@ -1,20 +1,34 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+//imports voor dependencies/paginas
+import React, { useContext } from 'react';
+import { NavigationContainer, DefaultTheme, DarkTheme } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import ListScreen from './listScreen';
+import LocationScreen from './locationScreen';
+import { ThemeProvider, ThemeContext } from './ThemeContext';
+import Settings from "./settings";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+//zet de navigatie op
+const Stack = createStackNavigator();
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+//creëert main app
+const MainApp = () => {
+    return (
+        //regelt de dark mode
+        <ThemeProvider>
+            <ThemeContext.Consumer>
+                {({ isDarkMode }) => (
+                    <NavigationContainer theme={isDarkMode ? DarkTheme : DefaultTheme}>
+                        {/*laat de navigatie zien in de app*/}
+                        <Stack.Navigator>
+                            <Stack.Screen name="Chicken Chaser" component={ListScreen} />
+                            <Stack.Screen name="Location" component={LocationScreen} />
+                            <Stack.Screen name="Settings" component={Settings} />
+                        </Stack.Navigator>
+                    </NavigationContainer>
+                )}
+            </ThemeContext.Consumer>
+        </ThemeProvider>
+    );
+};
+
+export default MainApp;
